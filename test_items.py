@@ -11,3 +11,4 @@ def test_add_to_cart_button_from_the_product_page_displayed(browser):
 
     assert browser.find_element(By.CLASS_NAME, "btn-primary"), "Button is missing"
     time.sleep(30)
+
